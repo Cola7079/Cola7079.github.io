@@ -1,7 +1,7 @@
 # Cola7079.github.io
 Cola7079的个人博客
 
-# 一直咕咕咕的猜数字终于开源啦！
+一直咕咕咕的猜数字终于开源啦！
 
 #include<iostream>
 #include<algorithm>
