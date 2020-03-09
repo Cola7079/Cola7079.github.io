@@ -1,7 +1,7 @@
 # Cola7079.github.io
 Cola7079的个人博客
 
-一直咕咕咕的猜数字终于开源啦！
+# 一直咕咕咕的猜数字终于开源啦！
 
 #include<iostream>
 #include<algorithm>
@@ -610,7 +610,7 @@ int main() {
 			char lan;
 			do {
 				lan = _getch();
-			} while (lan != '1'&&lan != '2');
+			} while (lan != '1' && lan != '2');
 			if (lan == '2') {
 				ltf = false;
 				system("cls");
@@ -618,7 +618,7 @@ int main() {
 				char col;
 				do {
 					col = _getch();
-				} while (col != '1'&&col != '2');
+				} while (col != '1' && col != '2');
 				if (col == '1') {
 					colour = false;
 					system("color 70");
@@ -681,7 +681,7 @@ int main() {
 				char col;
 				do {
 					col = _getch();
-				} while (col != '1'&&col != '2');
+				} while (col != '1' && col != '2');
 				if (col == '1') {
 					colour = false;
 					system("color 70");
@@ -774,7 +774,7 @@ int main() {
 		char ch;
 		do {
 			ch = _getch();
-		} while (ch != '1'&&ch != '2'&&ch != '3'&&ch != '4'&&ch != '5'&&ch != '6');
+		} while (ch != '1' && ch != '2' && ch != '3' && ch != '4' && ch != '5' && ch != '6');
 		if (ch == '2') {
 			system("cls");
 			for (int i = 1; i <= 5; i++) {
@@ -789,7 +789,7 @@ int main() {
 			char bingbing;
 			do {
 				bingbing = _getch();
-			} while (bingbing != '1'&&bingbing != '2');
+			} while (bingbing != '1' && bingbing != '2');
 			if (bingbing == '2') {
 				system("cls");
 				//void save(void);
@@ -825,7 +825,7 @@ int main() {
 			char bingbing;
 			do {
 				bingbing = _getch();
-			} while (bingbing != '1'&&bingbing != '2');
+			} while (bingbing != '1' && bingbing != '2');
 			if (bingbing == '2') {
 				system("cls");
 				//void save(void);
@@ -844,7 +844,7 @@ int main() {
 			char sett;
 			do {
 				sett = _getch();
-			} while (sett != '1'&&sett != '2');
+			} while (sett != '1' && sett != '2');
 			if (sett == '1') {
 				system("cls");
 				cout << "1. 中文" << endl;
@@ -852,7 +852,7 @@ int main() {
 				char huj;
 				do {
 					huj = _getch();
-				} while (huj != '1'&&huj != '2');
+				} while (huj != '1' && huj != '2');
 				if (huj == '2') {
 					ltf = false;
 					if (phbjl[1].sing == "匿名") {
@@ -879,7 +879,7 @@ int main() {
 					char bingbing;
 					do {
 						bingbing = _getch();
-					} while (bingbing != '1'&&bingbing != '2');
+					} while (bingbing != '1' && bingbing != '2');
 					if (bingbing == '2') {
 						system("cls");
 						//void save(void);
@@ -917,7 +917,7 @@ int main() {
 					char bingbing;
 					do {
 						bingbing = _getch();
-					} while (bingbing != '1'&&bingbing != '2');
+					} while (bingbing != '1' && bingbing != '2');
 					if (bingbing == '2') {
 						system("cls");
 						//void save(void);
@@ -1127,7 +1127,7 @@ int main() {
 					char colors;
 					do {
 						colors = _getch();
-					} while (colors != '1'&&colors != '2');
+					} while (colors != '1' && colors != '2');
 					if (colors == '1') {
 						colour = false;
 						system("color 70");
@@ -1144,7 +1144,7 @@ int main() {
 					char bingbing;
 					do {
 						bingbing = _getch();
-					} while (bingbing != '1'&&bingbing != '2');
+					} while (bingbing != '1' && bingbing != '2');
 					if (bingbing == '2') {
 						system("cls");
 						//void save(void);
@@ -1163,7 +1163,7 @@ int main() {
 					char colorss;
 					do {
 						colorss = _getch();
-					} while (colorss != '1'&&colorss != '2');
+					} while (colorss != '1' && colorss != '2');
 					if (colorss == '1') {
 						colour = false;
 						system("color 70");
@@ -1180,7 +1180,7 @@ int main() {
 					char bingbing;
 					do {
 						bingbing = _getch();
-					} while (bingbing != '1'&&bingbing != '2');
+					} while (bingbing != '1' && bingbing != '2');
 					if (bingbing == '2') {
 						system("cls");
 						//void save(void);
@@ -1208,7 +1208,7 @@ int main() {
 			char bingbing;
 			do {
 				bingbing = _getch();
-			} while (bingbing != '1'&&bingbing != '2');
+			} while (bingbing != '1' && bingbing != '2');
 			if (bingbing == '2') {
 				system("cls");
 				//void save(void);
@@ -1284,7 +1284,7 @@ int main() {
 						char ch;
 						do {
 							ch = _getch();
-						} while (ch != '\r'&&ch != '\b');
+						} while (ch != '\r' && ch != '\b');
 						if (ch == '\r') {
 							break;
 						}
@@ -1300,17 +1300,17 @@ int main() {
 						if (shuru == 1) {
 							do {
 								s[shuru] = _getch();
-							} while ((s[shuru] != '1'&&s[shuru] != '2'&&s[shuru] != '3'&&s[shuru] != '4'&&s[shuru] != '5'&&s[shuru] != '6'&&s[shuru] != '7'&&s[shuru] != '8'&&s[shuru] != '9'&&s[shuru] != '0'&&s[shuru] != '\b') || s[shuru] == s[0]);
+							} while ((s[shuru] != '1' && s[shuru] != '2' && s[shuru] != '3' && s[shuru] != '4' && s[shuru] != '5' && s[shuru] != '6' && s[shuru] != '7' && s[shuru] != '8' && s[shuru] != '9' && s[shuru] != '0' && s[shuru] != '\b') || s[shuru] == s[0]);
 						}
 						else if (shuru == 2) {
 							do {
 								s[shuru] = _getch();
-							} while ((s[shuru] != '1'&&s[shuru] != '2'&&s[shuru] != '3'&&s[shuru] != '4'&&s[shuru] != '5'&&s[shuru] != '6'&&s[shuru] != '7'&&s[shuru] != '8'&&s[shuru] != '9'&&s[shuru] != '0'&&s[shuru] != '\b') || s[shuru] == s[0] || s[shuru] == s[1]);
+							} while ((s[shuru] != '1' && s[shuru] != '2' && s[shuru] != '3' && s[shuru] != '4' && s[shuru] != '5' && s[shuru] != '6' && s[shuru] != '7' && s[shuru] != '8' && s[shuru] != '9' && s[shuru] != '0' && s[shuru] != '\b') || s[shuru] == s[0] || s[shuru] == s[1]);
 						}
 						else {
 							do {
 								s[shuru] = _getch();
-							} while ((s[shuru] != '1'&&s[shuru] != '2'&&s[shuru] != '3'&&s[shuru] != '4'&&s[shuru] != '5'&&s[shuru] != '6'&&s[shuru] != '7'&&s[shuru] != '8'&&s[shuru] != '9'&&s[shuru] != '0'&&s[shuru] != '\b') || s[shuru] == s[0] || s[shuru] == s[1] || s[shuru] == s[2]);
+							} while ((s[shuru] != '1' && s[shuru] != '2' && s[shuru] != '3' && s[shuru] != '4' && s[shuru] != '5' && s[shuru] != '6' && s[shuru] != '7' && s[shuru] != '8' && s[shuru] != '9' && s[shuru] != '0' && s[shuru] != '\b') || s[shuru] == s[0] || s[shuru] == s[1] || s[shuru] == s[2]);
 						}
 						if (s[shuru] == '\b') {
 							shuru--;
@@ -1325,7 +1325,7 @@ int main() {
 					else {
 						do {
 							s[shuru] = _getch();
-						} while (s[shuru] != '1'&&s[shuru] != '2'&&s[shuru] != '3'&&s[shuru] != '4'&&s[shuru] != '5'&&s[shuru] != '6'&&s[shuru] != '7'&&s[shuru] != '8'&&s[shuru] != '9'&&s[shuru] != '0');
+						} while (s[shuru] != '1' && s[shuru] != '2' && s[shuru] != '3' && s[shuru] != '4' && s[shuru] != '5' && s[shuru] != '6' && s[shuru] != '7' && s[shuru] != '8' && s[shuru] != '9' && s[shuru] != '0');
 						cout << s[shuru];
 						shuru++;
 					}
@@ -1334,7 +1334,7 @@ int main() {
 				tim = tim2 - tim1;
 				tim3 = ceil(tim);
 				totim += tim3;
-				if (s[0] == s[1] || s[0] == s[2] || s[0] == s[3] || s[1] == s[2] || s[1] == s[3] || s[2] == s[3] || (s[0] != '0'&&s[0] != '1'&&s[0] != '2'&&s[0] != '3'&&s[0] != '4'&&s[0] != '5'&&s[0] != '6'&&s[0] != '7'&&s[0] != '8'&&s[0] != '9') || (s[1] != '0'&&s[1] != '1'&&s[1] != '2'&&s[1] != '3'&&s[1] != '4'&&s[1] != '5'&&s[1] != '6'&&s[1] != '7'&&s[1] != '8'&&s[1] != '9') || (s[2] != '0'&&s[2] != '1'&&s[2] != '2'&&s[2] != '3'&&s[2] != '4'&&s[2] != '5'&&s[2] != '6'&&s[2] != '7'&&s[2] != '8'&&s[2] != '9') || (s[3] != '0'&&s[3] != '1'&&s[3] != '2'&&s[3] != '3'&&s[3] != '4'&&s[3] != '5'&&s[3] != '6'&&s[3] != '7'&&s[3] != '8'&&s[3] != '9')) {
+				if (s[0] == s[1] || s[0] == s[2] || s[0] == s[3] || s[1] == s[2] || s[1] == s[3] || s[2] == s[3] || (s[0] != '0' && s[0] != '1' && s[0] != '2' && s[0] != '3' && s[0] != '4' && s[0] != '5' && s[0] != '6' && s[0] != '7' && s[0] != '8' && s[0] != '9') || (s[1] != '0' && s[1] != '1' && s[1] != '2' && s[1] != '3' && s[1] != '4' && s[1] != '5' && s[1] != '6' && s[1] != '7' && s[1] != '8' && s[1] != '9') || (s[2] != '0' && s[2] != '1' && s[2] != '2' && s[2] != '3' && s[2] != '4' && s[2] != '5' && s[2] != '6' && s[2] != '7' && s[2] != '8' && s[2] != '9') || (s[3] != '0' && s[3] != '1' && s[3] != '2' && s[3] != '3' && s[3] != '4' && s[3] != '5' && s[3] != '6' && s[3] != '7' && s[3] != '8' && s[3] != '9')) {
 					if (colour)
 					{
 						system("color 04");
@@ -1361,7 +1361,7 @@ int main() {
 					char bingbing;
 					do {
 						bingbing = _getch();
-					} while (bingbing != '1'&&bingbing != '2');
+					} while (bingbing != '1' && bingbing != '2');
 					if (bingbing == '2') {
 						system("cls");
 						save();
@@ -1397,7 +1397,7 @@ int main() {
 					}
 					cout << "   4A0B" << endl << "You win!" << endl;
 					string sting;
-					if (i < phbjl[1].jl || (i == phbjl[1].jl&&totim < phbjl[1].second)) {
+					if (i < phbjl[1].jl || (i == phbjl[1].jl && totim < phbjl[1].second)) {
 						for (int l = 5; l >= 2; l--) {
 							phbjl[l].jl = phbjl[l - 1].jl;
 							phbjl[l].day = phbjl[l - 1].day;
@@ -1413,14 +1413,14 @@ int main() {
 						phbjl[1].jl = i;
 						swap(sting, phbjl[1].sing);
 					}
-					else if (i < phbjl[5].jl || (i == phbjl[5].jl&&totim < phbjl[5].second)) {
+					else if (i < phbjl[5].jl || (i == phbjl[5].jl && totim < phbjl[5].second)) {
 						int xunzhao;
 						for (int l = 1; l <= 5; l++) {
 							if (i < phbjl[l].jl) {
 								xunzhao = l;
 								break;
 							}
-							else if (i == phbjl[l].jl&&totim < phbjl[l].second)
+							else if (i == phbjl[l].jl && totim < phbjl[l].second)
 							{
 								xunzhao = l;
 								break;
@@ -1458,7 +1458,7 @@ int main() {
 					char bingbing;
 					do {
 						bingbing = _getch();
-					} while (bingbing != '1'&&bingbing != '2');
+					} while (bingbing != '1' && bingbing != '2');
 					if (bingbing == '2') {
 						system("cls");
 						save();
@@ -1498,7 +1498,7 @@ int main() {
 					char bingbing;
 					do {
 						bingbing = _getch();
-					} while (bingbing != '1'&&bingbing != '2');
+					} while (bingbing != '1' && bingbing != '2');
 					if (bingbing == '2') {
 						system("cls");
 						save();
@@ -1526,7 +1526,7 @@ int main() {
 		char ch;
 		do {
 			ch = _getch();
-		} while (ch != '1'&&ch != '2'&&ch != '3'&&ch != '4'&&ch != '5'&&ch != '6');
+		} while (ch != '1' && ch != '2' && ch != '3' && ch != '4' && ch != '5' && ch != '6');
 		if (ch == '2') {
 			system("cls");
 			for (int i = 1; i <= 5; i++) {
@@ -1539,7 +1539,7 @@ int main() {
 			char bingbing;
 			do {
 				bingbing = _getch();
-			} while (bingbing != '1'&&bingbing != '2');
+			} while (bingbing != '1' && bingbing != '2');
 			if (bingbing == '2') {
 				system("cls");
 				save();
@@ -1573,7 +1573,7 @@ int main() {
 			char bingbing;
 			do {
 				bingbing = _getch();
-			} while (bingbing != '1'&&bingbing != '2');
+			} while (bingbing != '1' && bingbing != '2');
 			if (bingbing == '2') {
 				system("cls");
 				save();
@@ -1592,7 +1592,7 @@ int main() {
 			char sett;
 			do {
 				sett = _getch();
-			} while (sett != '1'&&sett != '2');
+			} while (sett != '1' && sett != '2');
 			if (sett == '1') {
 				system("cls");
 				cout << "1. 中文" << endl;
@@ -1600,7 +1600,7 @@ int main() {
 				char huj;
 				do {
 					huj = _getch();
-				} while (huj != '1'&&huj != '2');
+				} while (huj != '1' && huj != '2');
 				if (huj == '2') {
 					ltf = false;
 					if (phbjl[1].sing == "匿名") {
@@ -1627,7 +1627,7 @@ int main() {
 					char bingbing;
 					do {
 						bingbing = _getch();
-					} while (bingbing != '1'&&bingbing != '2');
+					} while (bingbing != '1' && bingbing != '2');
 					if (bingbing == '2') {
 						save();
 						system("cls");
@@ -1665,7 +1665,7 @@ int main() {
 					char bingbing;
 					do {
 						bingbing = _getch();
-					} while (bingbing != '1'&&bingbing != '2');
+					} while (bingbing != '1' && bingbing != '2');
 					if (bingbing == '2') {
 						system("cls");
 						save();
@@ -1686,7 +1686,7 @@ int main() {
 					char colors;
 					do {
 						colors = _getch();
-					} while (colors != '1'&&colors != '2');
+					} while (colors != '1' && colors != '2');
 					if (colors == '1') {
 						colour = false;
 						system("color 70");
@@ -1703,7 +1703,7 @@ int main() {
 					char bingbing;
 					do {
 						bingbing = _getch();
-					} while (bingbing != '1'&&bingbing != '2');
+					} while (bingbing != '1' && bingbing != '2');
 					if (bingbing == '2') {
 						system("cls");
 						save();
@@ -1722,7 +1722,7 @@ int main() {
 					char colorss;
 					do {
 						colorss = _getch();
-					} while (colorss != '1'&&colorss != '2');
+					} while (colorss != '1' && colorss != '2');
 					if (colorss == '1') {
 						colour = false;
 						system("color 70");
@@ -1739,7 +1739,7 @@ int main() {
 					char bingbing;
 					do {
 						bingbing = _getch();
-					} while (bingbing != '1'&&bingbing != '2');
+					} while (bingbing != '1' && bingbing != '2');
 					if (bingbing == '2') {
 						system("cls");
 						save();
@@ -1765,7 +1765,7 @@ int main() {
 			char bingbing;
 			do {
 				bingbing = _getch();
-			} while (bingbing != '1'&&bingbing != '2');
+			} while (bingbing != '1' && bingbing != '2');
 			if (bingbing == '2') {
 				system("cls");
 				save();
@@ -1829,7 +1829,7 @@ int main() {
 						char ch;
 						do {
 							ch = _getch();
-						} while (ch != '\r'&&ch != '\b');
+						} while (ch != '\r' && ch != '\b');
 						if (ch == '\r') {
 							break;
 						}
@@ -1845,17 +1845,17 @@ int main() {
 						if (shuru == 1) {
 							do {
 								s[shuru] = _getch();
-							} while ((s[shuru] != '1'&&s[shuru] != '2'&&s[shuru] != '3'&&s[shuru] != '4'&&s[shuru] != '5'&&s[shuru] != '6'&&s[shuru] != '7'&&s[shuru] != '8'&&s[shuru] != '9'&&s[shuru] != '0'&&s[shuru] != '\b') || s[shuru] == s[0]);
+							} while ((s[shuru] != '1' && s[shuru] != '2' && s[shuru] != '3' && s[shuru] != '4' && s[shuru] != '5' && s[shuru] != '6' && s[shuru] != '7' && s[shuru] != '8' && s[shuru] != '9' && s[shuru] != '0' && s[shuru] != '\b') || s[shuru] == s[0]);
 						}
 						else if (shuru == 2) {
 							do {
 								s[shuru] = _getch();
-							} while ((s[shuru] != '1'&&s[shuru] != '2'&&s[shuru] != '3'&&s[shuru] != '4'&&s[shuru] != '5'&&s[shuru] != '6'&&s[shuru] != '7'&&s[shuru] != '8'&&s[shuru] != '9'&&s[shuru] != '0'&&s[shuru] != '\b') || s[shuru] == s[0] || s[shuru] == s[1]);
+							} while ((s[shuru] != '1' && s[shuru] != '2' && s[shuru] != '3' && s[shuru] != '4' && s[shuru] != '5' && s[shuru] != '6' && s[shuru] != '7' && s[shuru] != '8' && s[shuru] != '9' && s[shuru] != '0' && s[shuru] != '\b') || s[shuru] == s[0] || s[shuru] == s[1]);
 						}
 						else {
 							do {
 								s[shuru] = _getch();
-							} while ((s[shuru] != '1'&&s[shuru] != '2'&&s[shuru] != '3'&&s[shuru] != '4'&&s[shuru] != '5'&&s[shuru] != '6'&&s[shuru] != '7'&&s[shuru] != '8'&&s[shuru] != '9'&&s[shuru] != '0'&&s[shuru] != '\b') || s[shuru] == s[0] || s[shuru] == s[1] || s[shuru] == s[2]);
+							} while ((s[shuru] != '1' && s[shuru] != '2' && s[shuru] != '3' && s[shuru] != '4' && s[shuru] != '5' && s[shuru] != '6' && s[shuru] != '7' && s[shuru] != '8' && s[shuru] != '9' && s[shuru] != '0' && s[shuru] != '\b') || s[shuru] == s[0] || s[shuru] == s[1] || s[shuru] == s[2]);
 						}
 						if (s[shuru] == '\b') {
 							shuru--;
@@ -1870,7 +1870,7 @@ int main() {
 					else {
 						do {
 							s[shuru] = _getch();
-						} while (s[shuru] != '1'&&s[shuru] != '2'&&s[shuru] != '3'&&s[shuru] != '4'&&s[shuru] != '5'&&s[shuru] != '6'&&s[shuru] != '7'&&s[shuru] != '8'&&s[shuru] != '9'&&s[shuru] != '0');
+						} while (s[shuru] != '1' && s[shuru] != '2' && s[shuru] != '3' && s[shuru] != '4' && s[shuru] != '5' && s[shuru] != '6' && s[shuru] != '7' && s[shuru] != '8' && s[shuru] != '9' && s[shuru] != '0');
 						cout << s[shuru];
 						shuru++;
 					}
@@ -1879,7 +1879,7 @@ int main() {
 				tim = tim2 - tim1;
 				tim3 = ceil(tim);
 				totim += tim3;
-				if (s[0] == s[1] || s[0] == s[2] || s[0] == s[3] || s[1] == s[2] || s[1] == s[3] || s[2] == s[3] || (s[0] != '0'&&s[0] != '1'&&s[0] != '2'&&s[0] != '3'&&s[0] != '4'&&s[0] != '5'&&s[0] != '6'&&s[0] != '7'&&s[0] != '8'&&s[0] != '9') || (s[1] != '0'&&s[1] != '1'&&s[1] != '2'&&s[1] != '3'&&s[1] != '4'&&s[1] != '5'&&s[1] != '6'&&s[1] != '7'&&s[1] != '8'&&s[1] != '9') || (s[2] != '0'&&s[2] != '1'&&s[2] != '2'&&s[2] != '3'&&s[2] != '4'&&s[2] != '5'&&s[2] != '6'&&s[2] != '7'&&s[2] != '8'&&s[2] != '9') || (s[3] != '0'&&s[3] != '1'&&s[3] != '2'&&s[3] != '3'&&s[3] != '4'&&s[3] != '5'&&s[3] != '6'&&s[3] != '7'&&s[3] != '8'&&s[3] != '9')) {
+				if (s[0] == s[1] || s[0] == s[2] || s[0] == s[3] || s[1] == s[2] || s[1] == s[3] || s[2] == s[3] || (s[0] != '0' && s[0] != '1' && s[0] != '2' && s[0] != '3' && s[0] != '4' && s[0] != '5' && s[0] != '6' && s[0] != '7' && s[0] != '8' && s[0] != '9') || (s[1] != '0' && s[1] != '1' && s[1] != '2' && s[1] != '3' && s[1] != '4' && s[1] != '5' && s[1] != '6' && s[1] != '7' && s[1] != '8' && s[1] != '9') || (s[2] != '0' && s[2] != '1' && s[2] != '2' && s[2] != '3' && s[2] != '4' && s[2] != '5' && s[2] != '6' && s[2] != '7' && s[2] != '8' && s[2] != '9') || (s[3] != '0' && s[3] != '1' && s[3] != '2' && s[3] != '3' && s[3] != '4' && s[3] != '5' && s[3] != '6' && s[3] != '7' && s[3] != '8' && s[3] != '9')) {
 					if (colour)
 					{
 						system("color 04");
@@ -1904,7 +1904,7 @@ int main() {
 					char bingbing;
 					do {
 						bingbing = _getch();
-					} while (bingbing != '1'&&bingbing != '2');
+					} while (bingbing != '1' && bingbing != '2');
 					if (bingbing == '2') {
 						system("cls");
 						//void save(void);
@@ -1940,7 +1940,7 @@ int main() {
 					}
 					cout << "   4A0B" << endl << "你赢了！" << endl;
 					string sting;
-					if (i < phbjl[1].jl || (i == phbjl[1].jl&&totim < phbjl[1].second)) {
+					if (i < phbjl[1].jl || (i == phbjl[1].jl && totim < phbjl[1].second)) {
 						for (int l = 5; l >= 2; l--) {
 							phbjl[l].jl = phbjl[l - 1].jl;
 							phbjl[l].day = phbjl[l - 1].day;
@@ -1956,14 +1956,14 @@ int main() {
 						phbjl[1].second = totim;
 						swap(sting, phbjl[1].sing);
 					}
-					else if (i < phbjl[5].jl || (i == phbjl[5].jl&&totim < phbjl[5].second)) {
+					else if (i < phbjl[5].jl || (i == phbjl[5].jl && totim < phbjl[5].second)) {
 						int xunzhao;
 						for (int l = 1; l <= 5; l++) {
 							if (i < phbjl[l].jl) {
 								xunzhao = l;
 								break;
 							}
-							else if (i == phbjl[l].jl&&totim < phbjl[l].second)
+							else if (i == phbjl[l].jl && totim < phbjl[l].second)
 							{
 								xunzhao = l;
 								break;
@@ -1999,7 +1999,7 @@ int main() {
 					char bingbing;
 					do {
 						bingbing = _getch();
-					} while (bingbing != '1'&&bingbing != '2');
+					} while (bingbing != '1' && bingbing != '2');
 					if (bingbing == '2') {
 						system("cls");
 						//void save(void);
@@ -2037,7 +2037,7 @@ int main() {
 					char bingbing;
 					do {
 						bingbing = _getch();
-					} while (bingbing != '1'&&bingbing != '2');
+					} while (bingbing != '1' && bingbing != '2');
 					if (bingbing == '2') {
 						system("cls");
 						save();
